@@ -78,7 +78,10 @@
 - [Docker 알아보아요! (2019)](https://mysetting.io/slides/docker-basic ) 
 - [생활 코딩 - docker](https://opentutorials.org/course/4781/30609 ) 
 - [Best practices for writing Dockerfiles 요약](https://docs.google.com/document/d/1gSJW9agm--xyeO3MuDzTT3XsFxdo3k250H_GrnRUQ9k/edit?usp=sharing )  
-
+    
+- 실습 자료
+    - [2024-01 김성연님 실습 자료](/docker/docker-202301_ksy)
+  	
   
 <br>  
   
