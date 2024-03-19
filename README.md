@@ -1,7 +1,7 @@
 # 뉴비 게임 서버 프로그래머를 위한 학습 자료
-  
+    
 ## C++ 
-
+  
 ### 학습
 - [가상함수와 클래스 상속 계층도](https://docs.google.com/presentation/d/1m3u7CwXAYwVQ6yCGT4OQ-32VCXgSHcICO-cdPb-c84o/edit?usp=sharing)
 - [RAII 해설](https://docs.google.com/presentation/d/1-Pft2eHxylKBNmVTIoExshbLXoTXW7DfuGA1170hwnM/edit?usp=sharing )
@@ -27,8 +27,11 @@
   
 
 ### 실습
+- [채팅 서버 만들기](https://www.youtube.com/watch?v=eiwvQ8NV2h8)
+- [단계 별로 IOCP 실습](https://github.com/jacking75/edu_cpp_IOCP )
 - [오래된 IOCP API를 사용한 네트워크 라이브러리](https://github.com/jacking75/edu_cpp_server_programming/tree/main/opensource/edu_CQNetLib-master ) 를 최신 C++ 코드로 리팩토링 한다
-
+- [C++ 서버 프로그래밍 실습](https://github.com/jacking75/edu_cpp_server_programming )
+- [C++로 HTTP 통신하기](https://github.com/jacking75/how_to_use_cpp_http_client )
       
 
 <br>  
@@ -38,13 +41,21 @@
 - [(인프런 무료 영상) C# 처음부터 배우기 - 커리큘럼 총 11 개 ˙ 3시간 53분의 수업](https://inf.run/bfkW ) 
 - [(인프런 무료 영상) C# 프로그래밍 - 커리큘럼 총 63 개 ˙ 29시간 56분의 수업](https://inf.run/PueZ )  
 - [(유튜브) C# 교과서 마스터하기](https://www.youtube.com/watch?v=R4Br77_cHHU&list=PLO56HZSjrPTB4NxAsEP8HRk6YKBDLbp7m )  
+- [C# 멀티스레드 프로그래밍 정리](https://github.com/jacking75/csharp_multithread_programming )
   
 
-## API Server - ASP.NET Core
-
+### API Server - ASP.NET Core
+- [ASP.Net Core Web API Server 학습](https://github.com/jacking75/edu_Learn_ASPNetCore_APIServer )
 - [DAO, DTO, VO 란? 간단한 개념 정리](https://melonicedlatte.com/2021/07/24/231500.html )
-
   
+
+### 네트워크 프로그래밍
+- [C# 네트워크 프로그래밍 학습](https://github.com/jacking75/edu_CSharpNetworkProgramming )  
+- SuperSocket
+    - [Echo Server 만들기](https://www.youtube.com/watch?v=ZgzMuHE43hU )
+    - [Chat Server 만들기](https://www.youtube.com/watch?v=eiwvQ8NV2h8 )
+  
+    
 <br>  
     
 ## Linux
@@ -56,9 +67,9 @@
    
   
 ### WSL
+- [WSL2 글모음](https://gist.github.com/jacking75/a4f3cb450bdf8ddfae15eaab58343cf5 )  
   
-
-
+  
 ### docker
 비 Linux에서 docker를 다룰 때는 `Docker for Desktop` 프로그램을 사용한다. **개인적인 용도로 사용할 때만 무료**   
 어디에서나 무료로 `Docker for Desktop` 같은 프로그램을 사용하고 싶다면 `Rancher Desktop` 을 추천한다.  
@@ -87,8 +98,11 @@
   
 
 ### Redis 
-- [(영상) Redis 야무지게 사용하기](https://forward.nhn.com/2021/sessions/16 )  
+- [(영상) Redis 야무지게 사용하기](https://forward.nhn.com/2021/sessions/16 ) 
+- [Redis 글 모음](https://gist.github.com/jacking75/5d9927851b22a539774301017e0cefd7 ) 
 - [(유튜브) C++를 이용한 Redis 프로그래밍](https://www.youtube.com/watch?v=pGo1TnPH43Y&t=16s )  
+- [(유튜브) Redis C# 프로그래밍](https://www.youtube.com/watch?v=09ufiNEWynk )
+- [redis 라이브러리 사용 방법 정리](https://github.com/jacking75/how_to_use_redis_lib )
     
   
 <br>    
