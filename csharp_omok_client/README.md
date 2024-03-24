@@ -1,7 +1,15 @@
 # 오목 클라이언트 코드 저장소 
   
+## CSharp_OmokClient_0
+- .NET 7
+- WinForm  
+- 네트워크 클라이언트용으로 만든 것
+- 패킷 데이터 포맷은 MessagePack을 사용
+- 아래 버전과 달리 경고 없이 빌드 잘 되고, WinForm 디자이너에서 GUI 화면을 볼 수 있다 
+    
+    
 ## CSharp_OmokClient_1 , CSharp_OmokClient_3
-- C# 8.0
+- .NET 8
 - WinForm
 - 네트워크 클라이언트용으로 만든 것
 - 패킷 데이터 포맷은 MessagePack을 사용
@@ -9,7 +17,7 @@
     
   
 ## CSharp_OmokClient_2
-- C# 8.0
+- .NET 8
 - WinForm
 - 네트워크 클라이언트용으로 만든 것
 - 패킷 데이터 포맷은 바이너리를 사용
