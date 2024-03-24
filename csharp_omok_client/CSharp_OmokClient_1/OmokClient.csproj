@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows10.0.17763.0</TargetFramework>
+    <OutputType>WinExe</OutputType>
+	<GenerateResourceWarnOnBinaryFormatterUse>false</GenerateResourceWarnOnBinaryFormatterUse>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\00_bin_omok_client\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\00_bin_omok_client\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="CloudStructures">
+      <Version>3.2.0</Version>
+    </PackageReference>
+    <PackageReference Include="MessagePack">
+      <Version>2.5.140</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="Z.ExtensionMethods">
+      <Version>2.1.1</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="8.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="CSErrorCode.cs" />
+    <Compile Remove="FastBinaryRead.cs" />
+    <Compile Remove="FastBinaryWrite.cs" />
+    <Compile Remove="OmokRule.cs" />
+    <Compile Remove="PacketDatas.cs" />
+    <Compile Remove="PacketHeader.cs" />
+    <Compile Remove="PacketID.cs" />
+  </ItemGroup>
+</Project>
