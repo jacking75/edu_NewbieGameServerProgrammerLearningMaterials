@@ -40,6 +40,7 @@
 - [(인프런 무료 영상) C# 초보 강좌 예제로 배우는 C# - 11 강 ∙ 8시간 17분](https://inf.run/PVsq ) 
 - [(인프런 무료 영상) C# 처음부터 배우기 - 커리큘럼 총 11 개 ˙ 3시간 53분의 수업](https://inf.run/bfkW ) 
 - [(인프런 무료 영상) C# 프로그래밍 - 커리큘럼 총 63 개 ˙ 29시간 56분의 수업](https://inf.run/PueZ )  
+- [(인프런 무료 영상) 아임코딩의 C# 기초 강의](https://inf.run/8vbY9  )
 - [(유튜브) C# 교과서 마스터하기](https://www.youtube.com/watch?v=R4Br77_cHHU&list=PLO56HZSjrPTB4NxAsEP8HRk6YKBDLbp7m )  
 - [C# 멀티스레드 프로그래밍 정리](https://github.com/jacking75/csharp_multithread_programming )
   
@@ -87,6 +88,7 @@
   
 ## DB 
 - [(유튜브) 데이터베이스 입문](https://www.youtube.com/playlist?list=PLcXyemr8ZeoREWGhhZi5FZs6cvymjIBVe )    
+- [(인프런 무료 영상) SQL 시작도 못한 분들 드루와요](https://inf.run/NhkRi  )
 - [(YOUTUBE) 즐겁게 배우는 SQL](https://www.youtube.com/watch?v=AO5Q7zggJAk&list=PLdntWJk2tJPLinuRXcokohNLgc83ejwUt )
 - 추천 도서 
     - SQL 첫걸음 
@@ -111,9 +113,12 @@
 <br>    
 
 ## CS 학습
+- [(인프런 무료 영상) 데이터베이스, 운영체제 기본 개념 정리](https://inf.run/Bp1R2  )
 - [(무료 인강) 개발자를 위한 컴퓨터공학 1: 혼자 공부하는 컴퓨터구조 + 운영체제](https://inf.run/b2yR )
 - [(YOUTUBE 널널한 개발자) 넓고 얕게 배우는 컴퓨터 구조, 자료구조와 알고리즘, 프로그래밍, 운영체제](https://www.youtube.com/watch?v=ucBfQGpNjPo&list=PLXvgR_grOs1BQCziQ_MpM877BdBxwbMzA )
 - [(인프런 무료) 운영체제 공룡책 강의](https://inf.run/EvsF )
+- [(인프런 무료 영상) 컴퓨터구조, 네트워크 기본 개념 정리](https://inf.run/x5Wrv )
+- [(인프런 무료 영상) 자료구조 기본 개념 정리](https://inf.run/nzt1u )
 - [(YOUTUBE 널널한 개발자) 네트워크 기초 이론](https://www.youtube.com/watch?v=k1gyh9BlOT8&list=PLXvgR_grOs1BFH-TuqFsfHqbh-gpMbFoy )
 - [(YOUTUBE 널널한 개발자) 네트워크 응용](https://www.youtube.com/watch?v=7BvzxbG4y3Y&list=PLXvgR_grOs1BkUIxKsLEUdefyMWMA0_U- )
 - [(YOUTUBE 널널한 개발자) 암호기술에 대한 최소 이론](https://www.youtube.com/watch?v=HtETF-NL81A&list=PLXvgR_grOs1CakfdJgCy_Df14U3DqRuPk )
