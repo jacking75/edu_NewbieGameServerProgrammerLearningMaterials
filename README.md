@@ -112,8 +112,9 @@
   
 <br>    
 
-## CS 학습
+## 추천 영상 & 글
 - [(인프런 무료 영상) 데이터베이스, 운영체제 기본 개념 정리](https://inf.run/Bp1R2  )
+- [(YOUTUBE) 컴퓨터 개념 및 실습_서울대학교 공과대학 민상렬 교수](https://www.youtube.com/playlist?list=PLpDJrhQ7qbNHjCGC42CrtGq1FXMskBi3K )
 - [(무료 인강) 개발자를 위한 컴퓨터공학 1: 혼자 공부하는 컴퓨터구조 + 운영체제](https://inf.run/b2yR )
 - [(YOUTUBE 널널한 개발자) 넓고 얕게 배우는 컴퓨터 구조, 자료구조와 알고리즘, 프로그래밍, 운영체제](https://www.youtube.com/watch?v=ucBfQGpNjPo&list=PLXvgR_grOs1BQCziQ_MpM877BdBxwbMzA )
 - [(인프런 무료) 운영체제 공룡책 강의](https://inf.run/EvsF )
@@ -132,6 +133,7 @@
 - [대규모 서비스를 설계하는 기술](https://www.slideshare.net/charsyam2/how-to-build-massive-service-for-advance ) 
 - [개발자를 위한 인프라 기초 총정리](https://futurecreator.github.io/2018/11/09/it-infrastructure-basics/ )  
 - [HTTPS에 대한 기초 이해](https://cheese10yun.github.io/https/ ) 
+
 - [멀티 플레이게임의 서버 형태와 그 특징에 대해서](http://bit.ly/2YXBjGV )
 - [게임 서버의 목차 - 시작부터 출시까지, NDC2019](https://www.slideshare.net/devcatpublications/ndc2019-142915563 )
 - [게임 서버 디자인 가이드, NDC2013](http://www.slideshare.net/devcatpublications/ndc2013-19986939 )
@@ -140,12 +142,20 @@
 - [게임 분산 서버 구조](http://www.slideshare.net/hyunjikbae1/ss-35206140 )
 - [스마트폰 온라인 게임에서 고려해야 할 것들](http://www.slideshare.net/hyunjikbae1/ss-39522754 )
 - [C++ Korea 제9회 세미나 - 유지보수 편하게 게임 서버 만들기 (허린)](https://www.youtube.com/watch?v=NiDbkG_Eqpo )
-
-
+- [SKplanet Tacademy](https://www.youtube.com/channel/UCtV98yyffjUORQRGTuLHomw/playlists )
+- [국민대 자연공학 강좌 영상](http://ocw.kookmin.ac.kr/%EC%9E%90%EC%97%B0%EA%B3%B5%ED%95%99   )
+- [초보자를 위한 BigQuery(SQL) 입문( 무료 강의)](https://inf.run/MXKmF )
+- [개발 관련 유투브 모음(한글)](https://mp4.okdevtv.com/ )
+- [YOUTUBE 처음부터 시작하는 elastic](https://www.youtube.com/watch?v=Ks0P49B4OsA&list=PLhFRZgJc2afp0gaUnQf68kJHPXLG16YCf )
+  
+  
+  
 ## 추천 도서
 - 면접을 위한 CS 전공지식 노트
 - 학교에서 알려주지 않는 17가지 실무 개발 기술
-- 모두의 네트워크
 - 그림과 작동 원리로 쉽게 이해하는 서버의 기초
 - 그림으로 쉽게 이해하는 웹/HTTP/네트워크
-- 동료들 뒷목 잡게 만드는 나쁘 프로그래밍 습관
+- 동료들 뒷목 잡게 만드는 나쁜 프로그래밍 습관
+- 모두의 네트워크 기초 10일만에 배우는 네트워크  
+- 유선배 SQL개발자(SQLD) 과외노트  
+- 컴퓨터 밑바닥의 비밀
