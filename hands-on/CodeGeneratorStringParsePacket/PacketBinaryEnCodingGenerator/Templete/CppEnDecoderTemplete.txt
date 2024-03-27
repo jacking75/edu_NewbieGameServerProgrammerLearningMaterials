@@ -1,0 +1,68 @@
+﻿#pragma once
+
+#include <stdio.h>
+#include <wchar.h>
+#include <vector>
+
+ 
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////
+/*
+코드 변화 방법이 아닌 sprintf 문을 사용하여 변환이 가능하다.그리고 꼭 setlocals 함수로 문자 코드표를 지정해야 한다.
+필요한 헤더 파일 <locale.h>
+사용자 컴퓨터의 OS에 따라간다면 setlocale(LC_ALL, "");
+
+Ansi->UniCode
+_snwprintf_s를 사용한다.핵심은 인자 중 유니코드는 %s를 사용하지만 Ansi인 경우는 %S를 사용한다.
+_snwprintf_s(acBuffer, _countof(acBuffer), _TRUNCATE, L"[%s] %S", L"유니코드문자열", "안시코드문자열");
+
+UniCode->Ansi
+_snprintf_s를 사용한다.핵심은 인자 중 유니코드는 %S를 사용하지만 Ansi인 경우는 %s를 사용한다.
+_snprintf_s(acBuffer, _countof(acBuffer), _TRUNCATE, "[%S] %s", L"유니코드문자열", "안시코드문자열");
+*/
+
+namespace apedg //AutoPacketEnDecodeGenerator
+{
+	struct Encoder
+	{
+		template<class T>
+		static short WriteNumber(T Value, char* Buffer, short Pos)
+		{
+			short ValueSize = sizeof(T);
+			memcpy(&Buffer[Pos], &Value, ValueSize);
+			return ValueSize;
+		}
+
+		static short WriteWChar(wchar_t* pszText, char* pBuffer, short Pos, int BufferSize)
+		{
+			auto len = _snprintf_s(&pBuffer[Pos + 2], (BufferSize - (Pos + 2)), (BufferSize - (Pos + 2)) - 1, "%S", pszText);
+			WriteNumber<short>((short)len, pBuffer, Pos);
+			return (short)(len + 2);
+		}
+	};
+
+	struct DeCoder
+	{
+		template<class T>
+		static short ReadNumber(T* Value, char* Buffer, short Pos)
+		{
+			short ValueSize = sizeof(T);
+			memcpy(Value, &Buffer[Pos], ValueSize);
+			return ValueSize;
+		}
+
+		static short ReadWChar(wchar_t* pszText, short szSize, char* pBuffer, short Pos, char* pTempBuffer)
+		{
+			short ByteLength = 0;
+			ReadNumber<short>(&ByteLength, pBuffer, Pos);
+			memcpy(pTempBuffer, &pBuffer[Pos + 2], ByteLength);
+			pTempBuffer[ByteLength] = '\0';
+
+			_snwprintf_s(pszText, szSize, szSize - 1, L"%S", pTempBuffer);
+			return (short)(ByteLength + 2);
+		}
+	};
+
+

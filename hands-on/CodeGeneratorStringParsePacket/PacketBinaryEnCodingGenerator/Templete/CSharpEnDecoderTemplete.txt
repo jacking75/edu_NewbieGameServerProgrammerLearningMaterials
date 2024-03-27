@@ -1,0 +1,195 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace UnitTestProject
+{
+    public class PacketEnDecodeUtil
+    {
+        public static void StringTo(string text, List<byte> packetData)
+        {
+            byte[] temp = Encoding.Unicode.GetBytes(text);
+            packetData.AddRange(BitConverter.GetBytes((short)temp.Length));
+            packetData.AddRange(temp);
+        }
+
+        // 다양한 타입으로 만든다.
+		public static void ArrayTo(List<byte> valueList, List<byte> packetData)
+        {
+            var count = valueList.Count();
+
+            for (int i = 0; i < count; ++i)
+            {
+                packetData.Add(valueList[i]);
+            }
+        }
+		public static void ArrayTo(List<sbyte> valueList, List<byte> packetData)
+        {
+            var count = valueList.Count();
+
+            for (int i = 0; i < count; ++i)
+            {
+                packetData.Add(BitConverter.GetByte(valueList[i]));
+            }
+        }
+        public static void ArrayTo(List<short> valueList, List<byte> packetData)
+        {
+            var count = valueList.Count();
+
+            for (int i = 0; i < count; ++i)
+            {
+                packetData.AddRange(BitConverter.GetBytes(valueList[i]));
+            }
+        }
+		public static void ArrayTo(List<unsigned short> valueList, List<byte> packetData)
+        {
+            var count = valueList.Count();
+
+            for (int i = 0; i < count; ++i)
+            {
+                packetData.AddRange(BitConverter.GetBytes(valueList[i]));
+            }
+        }
+        public static void ArrayTo(List<int> valueList, List<byte> packetData)
+        {
+            var count = valueList.Count();
+
+            for (int i = 0; i < count; ++i)
+            {
+                packetData.AddRange(BitConverter.GetBytes(valueList[i]));
+            }
+        }
+		public static void ArrayTo(List<unsigned int> valueList, List<byte> packetData)
+        {
+            var count = valueList.Count();
+
+            for (int i = 0; i < count; ++i)
+            {
+                packetData.AddRange(BitConverter.GetBytes(valueList[i]));
+            }
+        }
+		public static void ArrayTo(List<Int64> valueList, List<byte> packetData)
+        {
+            var count = valueList.Count();
+
+            for (int i = 0; i < count; ++i)
+            {
+                packetData.AddRange(BitConverter.GetBytes(valueList[i]));
+            }
+        }
+		public static void ArrayTo(List<UInt64> valueList, List<byte> packetData)
+        {
+            var count = valueList.Count();
+
+            for (int i = 0; i < count; ++i)
+            {
+                packetData.AddRange(BitConverter.GetBytes(valueList[i]));
+            }
+        }
+		public static void ArrayTo(List<float> valueList, List<byte> packetData)
+        {
+            var count = valueList.Count();
+
+            for (int i = 0; i < count; ++i)
+            {
+                packetData.AddRange(BitConverter.GetBytes(valueList[i]));
+            }
+        }
+		public static void ArrayTo(List<double> valueList, List<byte> packetData)
+        {
+            var count = valueList.Count();
+
+            for (int i = 0; i < count; ++i)
+            {
+                packetData.AddRange(BitConverter.GetBytes(valueList[i]));
+            }
+        }
+		
+		public static void ToCollection(byte[] packetData, ref int readPos, int count, List<byte> collection)
+        {
+            for (short i = 0; i < count; ++i)
+            {
+                collection.Add(packetData[readPos]);
+                readPos += 1;
+            }
+        }
+        public static void ToCollection(byte[] packetData, ref int readPos, int count, List<sbyte> collection)
+        {
+            for (short i = 0; i < count; ++i)
+            {
+                collection.Add((sbyte)packetData[readPos]);
+                readPos += 1;
+            }
+        }
+		public static void ToCollection(byte[] packetData, ref int readPos, int count, List<short> collection)
+        {
+            for (short i = 0; i < count; ++i)
+            {
+                collection.Add(BitConverter.ToInt16(packetData, readPos));
+                readPos += 2;
+            }
+        }
+		public static void ToCollection(byte[] packetData, ref int readPos, int count, List<unsigned short> collection)
+        {
+            for (short i = 0; i < count; ++i)
+            {
+                collection.Add(BitConverter.ToUInt16(packetData, readPos));
+                readPos += 2;
+            }
+        }
+        public static void ToCollection(byte[] packetData, ref int readPos, int count, List<int> collection)
+        {
+            for (short i = 0; i < count; ++i)
+            {
+                collection.Add(BitConverter.ToInt32(packetData, readPos));
+                readPos += 4;
+            }
+        }
+		public static void ToCollection(byte[] packetData, ref int readPos, int count, List<unsigned int> collection)
+        {
+            for (short i = 0; i < count; ++i)
+            {
+                collection.Add(BitConverter.ToUInt32(packetData, readPos));
+                readPos += 4;
+            }
+        }		
+		public static void ToCollection(byte[] packetData, ref int readPos, int count, List<Int64> collection)
+        {
+            for (short i = 0; i < count; ++i)
+            {
+                collection.Add(BitConverter.ToInt64(packetData, readPos));
+                readPos += 8;
+            }
+        }
+		public static void ToCollection(byte[] packetData, ref int readPos, int count, List<UInt64> collection)
+        {
+            for (short i = 0; i < count; ++i)
+            {
+                collection.Add(BitConverter.ToUInt64(packetData, readPos));
+                readPos += 8;
+            }
+        }
+		public static void ToCollection(byte[] packetData, ref int readPos, int count, List<float> collection)
+        {
+            for (short i = 0; i < count; ++i)
+            {
+                collection.Add(BitConverter.ToIntSingle(packetData, readPos));
+                readPos += 4;
+            }
+        }
+		public static void ToCollection(byte[] packetData, ref int readPos, int count, List<double> collection)
+        {
+            for (short i = 0; i < count; ++i)
+            {
+                collection.Add(BitConverter.ToDouble(packetData, readPos));
+                readPos += 8;
+            }
+        }
+    }
+
+    
+
+
+
