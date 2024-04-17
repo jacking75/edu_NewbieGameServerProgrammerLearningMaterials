@@ -1,5 +1,18 @@
 # 뉴비 게임 서버 프로그래머를 위한 학습 자료
-    
+
+## 프로그래밍을 위한 AI 활용 
+- GitHub Copilot
+    - [비주얼 스튜디오의 GitHub 코파일럿: 2023년 요약](https://docs.google.com/document/d/1KiqQhZe04TbevuRv9PxMSvs0YZLbGkiK47TtQqOkzoU/edit?usp=sharing )
+    - [Visual Studio에서 GitHub Copilot Chat을 사용하는 방법](https://docs.google.com/document/d/e/2PACX-1vQ78gely4yQJGj6OSjc1jc7njERaSqs1ayqydOfF1PTvRtI7AjcVMXuqafqhqE_6Xky-OVpS8XjTKhB/pub )
+    - [GitHub Copilot의 기능을 최대한 활용하기 위한 팁을 GitHub에서 소개](https://docs.google.com/document/d/e/2PACX-1vTLcwn7lXsdT34E8NcbtRcLBAlttc6j29I7qgbrp0-DU1mYt4fcncPTx6JcJ2nJqtUOrREWj6ubic7_/pub )
+    - [IDE에서 GitHub Copilot 사용하기: 팁, 요령 및 모범 사례](https://docs.google.com/document/d/e/2PACX-1vSH6buzOb0BxcpDk0lqfnUgTT-GnlGV3K3BOWKu_u4rrLxWx1Rg6iTYug9T0uqO3xuKCr0Zpd0WDhvH/pub )
+    - [깃허브 코파일러 명령어 표](https://docs.google.com/document/d/e/2PACX-1vTmSSv2NBS-inJxrJkfNuAsRVCTnXAZkv8-ZEevtY-53JhJeaHuM2Xw8_ezOjH6inK7jmi5zTwZFcMz/pub )
+    - [Visual Studio에서 C++로 코파일럿 채팅을 사용하기 위한 빠른 팁](https://docs.google.com/document/d/e/2PACX-1vQVDXu5tjfh3w4QlB9DSVSKHdTqeLpQZKZKAxuOJ2UQy_6zRK130CPj7ys1NqF1nd-jS1lE1szaMBP0/pub )
+- ChatGPT
+    - [ChatGPT에서 기억해두면 유용한 Markdown 표기법 5가지](https://docs.google.com/document/d/e/2PACX-1vR3H0dks98hJdcYPxAW2kBV3C1jFpeDBt7rq5t7JThnszD-ONmJDrDX60KDKsrearOuTFpOVhMeG3R6/pub )
+    - [인지적 프롬프팅](https://docs.google.com/presentation/d/1kayepoiTVT838Tetk02nxeqVmmS9BDc9O7n-4OzJdL8/mobilepresent?slide=id.p )  
+  
+  
 ## C++ 
   
 ### 학습
@@ -94,20 +107,56 @@
     - SQL 첫걸음 
     - 모두의 SQL 누구나 쉽게 배우는 데이터 분석 기초
   
-![그림 1장으로 이해하는 DB Sharding Explained](./db_sharding_explained.png)  원 출처: https://twitter.com/bibryam/status/1606316891307483136/photo/1   
+![그림 1장으로 이해하는 DB Sharding Explained](./db_sharding_explained.png)  원 출처: https://twitter.com/bibryam/status/1606316891307483136/photo/1     
+- [DBA가 개발자에게 가장 많은 질문을 받는 것들](https://docs.google.com/document/d/1lZfNpqHJhnt0eX-G5CNYaeW_Mmg3tTeufCVzOwwXxe0/edit?usp=sharing )
+- [SQL 약간의 퍼포먼스 튜닝 정리](https://docs.google.com/document/d/e/2PACX-1vQok3Ja_TOC-sL7XCTX1e5cPj_9fgpCiZLtwPORhVNSc-Cq7YoC0ND6cxYhDXS6EhdkW7Soqsrox6XY/pub ) 
+- [DB 튜닝에서 실제로 성과가 나온 3개의 지침](https://docs.google.com/document/d/e/2PACX-1vR-sqfIdM8w-gupjPsxzznIRn9XT8HznbKNLmrHBseBk6HRoZWHDaLzy6G8lwrVmUdbrc1z-Y9LiWWM/pub )  
   
 
 ### MySQL
-- [한방으로 db 환경 구축하기](https://docs.google.com/document/d/e/2PACX-1vQ8hKrDGdI62JzjoXxUpbHOwBhNkg7mBnDYP5QNj26yIE17V-lWza0-UV6GpPATZ1Cv_YTQ4ysynAX5/pub )   
+- 설치
+    - [windows 설치](https://stormpy.tistory.com/m/45 )
+    - [MySQL Community Server 8.0.15 설치](https://parkdream.tistory.com/93  )
+    - [Windows 10 환경 MySQL 64bit 수동 설치 (v8.0.19)](https://sysong85.tistory.com/102 )    
+- docker  
+    - [docker로 mysql을 사용하기](https://docs.google.com/document/d/1Qrvs07r2Cspce1QvKFAHcirzDjW0q5L-BMDk5jdJovg/edit?usp=sharing )
+    - [로컬 환경에서 docker mysql에 연결](https://docs.google.com/document/d/e/2PACX-1vTSidi8ywtgkHC0CBbSQ69zpzyOol5sh9rXGk7Ho4Hjm_meP2YzfU3g2Z-gWa1VZZMAeEeGWBlZgV9k/pub )
+    - [한방으로 db 환경 구축하기](https://docs.google.com/document/d/e/2PACX-1vQ8hKrDGdI62JzjoXxUpbHOwBhNkg7mBnDYP5QNj26yIE17V-lWza0-UV6GpPATZ1Cv_YTQ4ysynAX5/pub )  
+- [MySQL의 다양한 타임아웃 옵션](https://docs.google.com/document/d/1vc0lBdO1yWZu8Yj2tvOiR3VzsQxin4PbmSW7Rbm5HQY/edit?usp=sharing )
+- [수신기한이 지난 데이터를 MySQL에서 삭제할 때의 이야기](https://docs.google.com/document/d/e/2PACX-1vRLotins2K_uOZjf5WoYmspWvcvq18ykWHb8ec9gEOpP2JbYk0uqb5zYUu05k7z1TD7iGNLMmp6-Xh6/pub )
+- [MySQL에서 문자열의 유니크 제약 조건을 걸 때 조심할 것](https://docs.google.com/document/d/e/2PACX-1vQXcAf7fzqav158jt8gEkhmSoND3IHDH4SSs0p59W2A0nbUMY78NBgWf9M9HBCMRyzttn_kL4bad3xN/pub )
+- 트랜잭션, Lock
+    - [트랜잭션 격리 수준에 대한 요약](https://docs.google.com/document/d/e/2PACX-1vQOKAf9lYmJEx7BXBTv4dviFWlFFOG8TUmSvA7OtlCWgB8umDDIHl5C_VRh6IZ7npZD8ccpg_oXrkTY/pub )
+    - [MySQL 트랜잭션 격리 수준과 발생하는 법칙을 정리](https://docs.google.com/document/d/e/2PACX-1vRxc1rFVaFUjeqz4Xq9rwLes9Kujd1ijppwO0nJQUevSBHzKBKnDfgxedZM8h_OipELLd1eviXlg2Vr/pub )
+    - ["트랜잭션을 사용하면 괜찮다" 라고 생각하지 않습니까? 버그의 온상이 되는 일반적인 구현 패턴](https://docs.google.com/document/d/e/2PACX-1vR3GzvFiTdxpXZYgGxE6nSjwQPujpd1deohWFrnIEES8Vi6egUahEH4b685zdsX8O3h-gtqfDSfnnyd/pub )      
+    - [데이터베이스 락(Lock) 기초부터 교착 상태(데드락)까지](https://docs.google.com/document/d/e/2PACX-1vREFF4Ucc54rOjKjf7nast9ZCWqbRPdtN9JDY-MOq1u-1jTJjr5Bn0VjMBOrA36xeBHjPPBuL7FKQ-q/pub  ) 
+    - [MySQL의 갭락과 넥스트 키 락에 대해서](https://docs.google.com/document/d/12vBdawRbgs8vzRYG5e1r5WpOhRLfMhU0iXGWzVPZ5r8/edit?usp=sharing )
+    - [MySQL 8.0의 lock read의 NOWAIT와 SKIP LOCKED 옵션에 대해서](https://docs.google.com/document/d/1zDXKv_stqUwORs5d_R0S6t41YofUL2Y8xUrQfBBybPM/edit?usp=sharing )
+    - [UPDATE IN SELECT로 인한 교착 상태가 더 이상 발생하지 않게된 이야기](https://docs.google.com/document/d/e/2PACX-1vSebnl1juzCZsPd9vL0cGIwYtF4VxvNkK1r-jqwmsWGTBAUZSIci0qK2jHI76tIeia32sYRPLsPgqDx/pub )  
+    - [MySQL의 ALTER TABLE 문 실행 시 주의 사항](https://docs.google.com/document/d/e/2PACX-1vQyhU_YDZ7HmqdjQanORZAhUHYEUn-b8fj2TKPlaPe5ksfEBGa9OKhCKFK5EsJnP61HJmf-rHDFw0_h/pub ) 
+    - [MySQL(InnoDB)에서 각종 Lock 동작 알아보기](https://docs.google.com/document/d/e/2PACX-1vQ51LK8ym7wcjZmERz5RIB-AvH0QGIWYkbDs93Vv08Ml2i3kR-m4IwXxbo7FmWOFaIyCP41wnump3AN/pub ) 
+    - [Waiting for table metadata lock 대처 방법, 복습](https://docs.google.com/document/d/13MdqBaFR0G9IX1e-LrOo4QG2sLBEyODFt_Gvq4NTEBM/edit?usp=sharing )  
+    - [MySQL에서 발생할 수 있는 뜻밖의 데드락과 대응 방법](https://docs.google.com/document/d/e/2PACX-1vRp3cRZ-azq4bJFY52RT1U153lrrvVs7SwmQK8lbohnVKqL2TATKNdXaj-6eP4Kg8ho7yszasKX9ePj/pub )  
+    - [MySQL 메타데이터 Lock에 대해서](https://docs.google.com/document/d/e/2PACX-1vQ6wX6K7Mtk7vn530JqUXdBUCgtQmNW81sQHYjCaKTb9zk2V1TFyP_CW641FoKxf1HmrpH5vKzeCeXA/pub ) 
+    - [MySQL 온라인 DDL에서 Deadlock 오류가 발생하는 경우](https://docs.google.com/document/d/e/2PACX-1vRHjet16g6TCRP8mcS0wtFtoksZMSbVl78GfBkgtLxMuk3SKHDKP2kwnFZzmytlr8Dik22KKTa1JYKf/pub  )  
+
    
   
 
 ### Redis 
+- [레디스 게이트](http://www.redisgate.com/redis/command/latency.php ) 기능 설명
 - [(영상) Redis 야무지게 사용하기](https://forward.nhn.com/2021/sessions/16 ) 
 - [Redis 글 모음](https://gist.github.com/jacking75/5d9927851b22a539774301017e0cefd7 ) 
 - [(유튜브) C++를 이용한 Redis 프로그래밍](https://www.youtube.com/watch?v=pGo1TnPH43Y&t=16s )  
 - [(유튜브) Redis C# 프로그래밍](https://www.youtube.com/watch?v=09ufiNEWynk )
 - [redis 라이브러리 사용 방법 정리](https://github.com/jacking75/how_to_use_redis_lib )
+- [Redis를 활용한 다양한 시스템 설계](https://devs0n.tistory.com/92 )
+- [Redis의 기본 데이터 유형 및 명령](https://docs.google.com/document/d/10mHFq-kTpGBk1-id5Z-zoseiLnTKr_T8N3byBZP5mEg/edit?usp=sharing )
+- [Redis로 방문자수 구현하기](https://docs.google.com/document/d/e/2PACX-1vQFFSlvGJuDIjeEJM7UZdKRAC0Ps-CiBGFJQfZs_dLwko5cuIYMcbYWUZYeyb-K7M3pdMs9WAv7WD8B/pub )
+- [Redis를 사용하여 동일 유저의 요청은 순차적으로 처리되도록 하기](https://docs.google.com/document/d/e/2PACX-1vRxEVk0OTmRYzDuDlq7BfrtkFh_9Gd9zcHArYfJS_oEOM3WO3TPpRIkbFybcPiwANufZ8R4BA2KHZDb/pub )
+- [Redis를 사용한 분산 잠금 (SETNX, Redlock)](https://docs.google.com/document/d/e/2PACX-1vQjDwRvrzQPxPI0z9AGn2COp_HPed8Ny0yWnQ77ogoFTV21aYKVtIknXTuqtwR6IaBwQqmkBenCcA8t/pub )
+- [Redisson 분산락을 이용한 동시성 제어](https://velog.io/@hgs-study/redisson-distributed-lock )
+- [Redis 모델링](http://www.joinc.co.kr/modules/moniwiki/wiki.php/man/12/REDIS/DataModeling )
     
   
 <br>    
@@ -151,11 +200,12 @@
   
   
 ## 추천 도서
-- 면접을 위한 CS 전공지식 노트
-- 학교에서 알려주지 않는 17가지 실무 개발 기술
+- **혼자 공부하는 네트워크**
+- **면접을 위한 CS 전공지식 노트**
+- **학교에서 알려주지 않는 17가지 실무 개발 기술**
+- **컴퓨터 밑바닥의 비밀**
 - 그림과 작동 원리로 쉽게 이해하는 서버의 기초
 - 그림으로 쉽게 이해하는 웹/HTTP/네트워크
 - 동료들 뒷목 잡게 만드는 나쁜 프로그래밍 습관
-- 모두의 네트워크 기초 10일만에 배우는 네트워크  
 - 유선배 SQL개발자(SQLD) 과외노트  
-- 컴퓨터 밑바닥의 비밀
+
