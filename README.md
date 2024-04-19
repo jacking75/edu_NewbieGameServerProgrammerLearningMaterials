@@ -94,7 +94,7 @@
 - [Best practices for writing Dockerfiles 요약](https://docs.google.com/document/d/1gSJW9agm--xyeO3MuDzTT3XsFxdo3k250H_GrnRUQ9k/edit?usp=sharing )  
     
 - 실습 자료
-    - [2024-01 김성연님 실습 자료](/docker/docker-202301_ksy)
+    - [2024-01 컴투스 김성연님 실습 자료](/docker/docker-202301_ksy)
   	
   
 <br>  
@@ -107,7 +107,8 @@
     - SQL 첫걸음 
     - 모두의 SQL 누구나 쉽게 배우는 데이터 분석 기초
   
-![그림 1장으로 이해하는 DB Sharding Explained](./db_sharding_explained.png)  원 출처: https://twitter.com/bibryam/status/1606316891307483136/photo/1     
+![그림 1장으로 이해하는 DB Sharding Explained](./db_sharding_explained.png)  원 출처: https://twitter.com/bibryam/status/1606316891307483136/photo/1      
+- [Index 이해하기](https://docs.google.com/document/d/e/2PACX-1vT6X6FvabSDrBe3WegIK4sGA4XQKTqlQs12grFRX2MOtLhvF6c3h39mmhALRvgpvDUdrHG08iX3NYVB/pub  )
 - [DBA가 개발자에게 가장 많은 질문을 받는 것들](https://docs.google.com/document/d/1lZfNpqHJhnt0eX-G5CNYaeW_Mmg3tTeufCVzOwwXxe0/edit?usp=sharing )
 - [SQL 약간의 퍼포먼스 튜닝 정리](https://docs.google.com/document/d/e/2PACX-1vQok3Ja_TOC-sL7XCTX1e5cPj_9fgpCiZLtwPORhVNSc-Cq7YoC0ND6cxYhDXS6EhdkW7Soqsrox6XY/pub ) 
 - [DB 튜닝에서 실제로 성과가 나온 3개의 지침](https://docs.google.com/document/d/e/2PACX-1vR-sqfIdM8w-gupjPsxzznIRn9XT8HznbKNLmrHBseBk6HRoZWHDaLzy6G8lwrVmUdbrc1z-Y9LiWWM/pub )  
@@ -172,17 +173,18 @@
 - [(YOUTUBE 널널한 개발자) 네트워크 기초 이론](https://www.youtube.com/watch?v=k1gyh9BlOT8&list=PLXvgR_grOs1BFH-TuqFsfHqbh-gpMbFoy )
 - [(YOUTUBE 널널한 개발자) 네트워크 응용](https://www.youtube.com/watch?v=7BvzxbG4y3Y&list=PLXvgR_grOs1BkUIxKsLEUdefyMWMA0_U- )
 - [(YOUTUBE 널널한 개발자) 암호기술에 대한 최소 이론](https://www.youtube.com/watch?v=HtETF-NL81A&list=PLXvgR_grOs1CakfdJgCy_Df14U3DqRuPk )
-- [동시성, 병렬, 비동기, 논블럭킹과 컨셉들](https://black7375.tistory.com/90 )
-- [(운영체제: 아주 쉬운 세 가지 이야기(출판된 책으로 무료 버전)](https://github.com/remzi-arpacidusseau/ostep-translations/tree/master/korean )
 - [(인프런, 무료) 개발자를 위한 컴퓨터공학 1: 혼자 공부하는 컴퓨터구조 + 운영체제](https://inf.run/qq22 )
 - [(인프런 무료 온라인 강의) 뇌를 자극하는 윈도우즈 시스템 프로그래밍](https://inf.run/76wV )
 - [(유튜브) 따라하면서 배우는 IT](https://www.youtube.com/channel/UCl9zTDOvOxdCfUt1HqVwwdg )
+    
+- [무중단 배포와 배포 전략, CI/CD](https://blog.naver.com/sssang97/223418573577 )
+- [동시성, 병렬, 비동기, 논블럭킹과 컨셉들](https://black7375.tistory.com/90 )
+- [(운영체제: 아주 쉬운 세 가지 이야기(출판된 책으로 무료 버전)](https://github.com/remzi-arpacidusseau/ostep-translations/tree/master/korean )
 - [10가지 소프트웨어 아키텍처 패턴 요약](https://mingrammer.com/translation-10-common-software-architectural-patterns-in-a-nutshell/ )    
 - [최신 네트워크 로드 밸런싱 및 프록시 소개](https://ziwon.github.io/post/modern-network-load-balancing-and-proxying/ ) 
 - [대규모 서비스를 설계하는 기술](https://www.slideshare.net/charsyam2/how-to-build-massive-service-for-advance ) 
 - [개발자를 위한 인프라 기초 총정리](https://futurecreator.github.io/2018/11/09/it-infrastructure-basics/ )  
 - [HTTPS에 대한 기초 이해](https://cheese10yun.github.io/https/ ) 
-
 - [멀티 플레이게임의 서버 형태와 그 특징에 대해서](http://bit.ly/2YXBjGV )
 - [게임 서버의 목차 - 시작부터 출시까지, NDC2019](https://www.slideshare.net/devcatpublications/ndc2019-142915563 )
 - [게임 서버 디자인 가이드, NDC2013](http://www.slideshare.net/devcatpublications/ndc2013-19986939 )
