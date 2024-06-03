@@ -56,6 +56,7 @@
 - [(인프런 무료 영상) 아임코딩의 C# 기초 강의](https://inf.run/8vbY9  )
 - [(유튜브) C# 교과서 마스터하기](https://www.youtube.com/watch?v=R4Br77_cHHU&list=PLO56HZSjrPTB4NxAsEP8HRk6YKBDLbp7m )  
 - [C# 멀티스레드 프로그래밍 정리](https://github.com/jacking75/csharp_multithread_programming )
+- [비동기 프로그래밍 정리](https://docs.google.com/document/d/e/2PACX-1vRHRbQjeoJH9lXalTClFBuB-D41v9TaBTPc_TeUS-yKhPZTJa2dWjpv_Rib863b_disjspqymOjgKwq/pub )
   
 
 ### API Server - ASP.NET Core
