@@ -171,8 +171,11 @@
 - [(인프런 무료) 운영체제 공룡책 강의](https://inf.run/EvsF )
 - [(인프런 무료 영상) 컴퓨터구조, 네트워크 기본 개념 정리](https://inf.run/x5Wrv )
 - [(인프런 무료 영상) 자료구조 기본 개념 정리](https://inf.run/nzt1u )
+
+- [(YOUTUBE) 혼자 공부하는 네트워크](https://www.youtube.com/watch?v=c62qssA4hYI&list=PLVsNizTWUw7HfOCgvlfHIDPPo3TE-2iQM )
 - [(YOUTUBE 널널한 개발자) 네트워크 기초 이론](https://www.youtube.com/watch?v=k1gyh9BlOT8&list=PLXvgR_grOs1BFH-TuqFsfHqbh-gpMbFoy )
 - [(YOUTUBE 널널한 개발자) 네트워크 응용](https://www.youtube.com/watch?v=7BvzxbG4y3Y&list=PLXvgR_grOs1BkUIxKsLEUdefyMWMA0_U- )
+  
 - [(YOUTUBE 널널한 개발자) 암호기술에 대한 최소 이론](https://www.youtube.com/watch?v=HtETF-NL81A&list=PLXvgR_grOs1CakfdJgCy_Df14U3DqRuPk )
 - [(인프런, 무료) 개발자를 위한 컴퓨터공학 1: 혼자 공부하는 컴퓨터구조 + 운영체제](https://inf.run/qq22 )
 - [(인프런 무료 온라인 강의) 뇌를 자극하는 윈도우즈 시스템 프로그래밍](https://inf.run/76wV )
